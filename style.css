@@ -1,0 +1,20 @@
+:root {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza:#353535;
+  --verde: #b622f4;
+  --light-gray: #b2b2b2;
+  --amarelo:#fec612;
+  --purple-gradient: linear-gradient(90deg, var(--purple), var(--pink));
+  --light: 300;
+  --regular: 400;
+  --medium:500;
+  --semi-bold: 600;
+  --bold: 700;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
