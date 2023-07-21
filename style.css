@@ -85,7 +85,8 @@ header nav .logo img {
   box-shadow: var(--sombra);
   gap: 2rem;
 }
-.soma .blocos .bloco p {
+.soma .blocos .bloco p,
+.soma .blocos .bloco h3 {
   text-align: center;
 }
 .gratuito .bloco {
@@ -158,4 +159,64 @@ header nav .logo img {
   font-weight: var(--light);
   text-align: center;
   font-size: 1.2rem;
+}
+
+footer {
+  background: var(--verde);
+}
+footer .logo img {
+  height: 4rem;
+}
+footer p {
+  font-size: 1.3rem;
+  color: var(--branco);
+  font-weight: var(--medium);
+  margin-bottom: 0;
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1199px) {
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 3rem;
+  }
+  a {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+  .soma .blocos {
+    gap: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .topo h1 {
+    text-align: center;
+  }
+  .topo p {
+    text-align: center;
+  }
+  .topo .bt {
+    margin: 0 auto;
+  }
+  .soma .blocos {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+@media (max-width: 575px) {
+  .comentarios .swiper-comentarios .swiper-button-next {
+    right: 0rem;
+  }
+  .comentarios .swiper-comentarios .swiper-button-prev {
+    left: 0rem;
+  }
+}
+@media (max-width: 400px) {
 }
